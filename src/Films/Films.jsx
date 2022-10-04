@@ -58,8 +58,6 @@ export const Films = () => {
             })
         }
         
-        
-        
         <div className="drop">
             <a href="" className="what-if">
                 <span>Подробнее...</span>
