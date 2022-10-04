@@ -1,0 +1,426 @@
+.films {
+    margin-left: 11%;
+    margin-right: 11%;
+    border-color: #3e3e3e;
+}
+
+main>div>a>span {
+    background-color: #ff0000b0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+main>h2 {
+    text-align: center;
+    margin: 10px 35% 10px 35%;
+    padding-bottom: 5px;
+    background-color: rgba(77, 77, 77, 0.967);
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.445),
+        0 10px 15px rgba(0, 0, 0, 0.386);
+
+    border: solid#3e3e3e;
+}
+
+h3 {
+    background-color: rgba(0, 0, 0, 0.381);
+    padding: 5px;
+}
+
+.descript {
+    font-weight: 100;
+    width: 630px;
+    font-size: 18px;
+}
+
+.descript>li {
+    margin: 20px 0;
+}
+
+.descript>.a {
+    list-style-image: url(../../public/pictures/regi.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
+}
+
+.descript>.b {
+    list-style-image: url(../../public/pictures/time1.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
+}
+
+.descript>.c {
+    list-style-image: url(../../public/pictures/actr.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
+}
+
+.descript>.d {
+    list-style-image: url(../../public/pictures/pers.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
+}
+
+.descript>.e {
+    list-style-image: url(../../public/pictures/sujet.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
+}
+
+.search {
+    border: none;
+    font-size: 17px;
+}
+
+.button {
+    background: url(../../public/pictures/search1.jpg) no-repeat;
+    background-size: 40px 100%;
+    background-color: aqua;
+    width: 40px;
+    border: none;
+}
+
+.logo {
+    padding: 1% 7% 1% 2%;
+    margin: 2px 2px 2px 2%;
+    background: url(../../public/pictures/logo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+.drop {
+    display: flex;
+    align-content: center;
+    border: solid;
+    border-color: #3e3e3e;
+    background-color: rgba(77, 77, 77, 0.967);
+    margin-bottom: 20px;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.445),
+        0 10px 15px rgba(0, 0, 0, 0.386);
+}
+
+.drop>a {
+    margin: 5% 0% 5% 4%;
+    height: 390px;
+    width: 26%;
+    border-style: ridge;
+    color: rgb(255, 255, 255);
+}
+
+.drop>a:hover {
+    border-color: rgb(255, 0, 0);
+}
+
+.dr-strenge2 {
+    background: url(../../public/pictures/films/drStrenge2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.moon-knight {
+    background: url(../../public/pictures/films/moon-knight.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.spider-man3 {
+    background: url(../../public/pictures/films/spiderMan3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.eternal {
+    background: url(../../public/pictures/films/eternal.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.shan-chi {
+    background: url(../../public/pictures/films/shan-chi.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.hawkeye {
+    background: url(../../public/pictures/films/hawkeye.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.black-widow {
+    background: url(../../public/pictures/films/black-widow.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.what-if {
+    background: url(../../public/pictures/films/what-if.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.loki {
+    background: url(../../public/pictures/films/loki.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.falcon {
+    background: url(../../public/pictures/films/falcon.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.vanda-vision {
+    background: url(../../public/pictures/films/vanda-vision.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.spider-man2 {
+    background: url(../../public/pictures/films/Spider-Man2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.avengers-final {
+    background: url(../../public/pictures/films/avengers-final.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.capitan-marvel {
+    background: url(../../public/pictures/films/captain-marvel.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.ant-man2 {
+    background: url(../../public/pictures/films/ant-man2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.avengers-infinit {
+    background: url(../../public/pictures/films/avengers-infinit.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.black-panther {
+    background: url(../../public/pictures/films/black-panther.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.tor3 {
+    background: url(../../public/pictures/films/tor3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.spider-man {
+    background: url(../../public/pictures/films/spider-man.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.straji-galaktik2 {
+    background: url(../../public/pictures/films/straji-galaktik2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.dr-strenge {
+    background: url(../../public/pictures/films/dr-strenge.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.capitan-america3 {
+    background: url(../../public/pictures/films/captain-america3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.ant-man {
+    background: url(../../public/pictures/films/ant-man.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.avengers2 {
+    background: url(../../public/pictures/films/avengers2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.straji-galaktik {
+    background: url(../../public/pictures/films/straji-galaktik.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.capitan-america2 {
+    background: url(../../public/pictures/films/captain-america2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.tor2 {
+    background: url(../../public/pictures/films/tor2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.iron-man3 {
+    background: url(../../public/pictures/films/iron-man3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.avengers {
+    background: url(../../public/pictures/films/avengers.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.capitan-america {
+    background: url(../../public/pictures/films/captain-america.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.tor {
+    background: url(../../public/pictures/films/tor.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.iron-man2 {
+    background: url(../../public/pictures/films/iron-man2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.hulk {
+    background: url(../../public/pictures/films/hulk.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.iron-man {
+    background: url(../../public/pictures/films/iron-man.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.info {
+    padding: 5% 1% 0% 1%;
+}
+
+.filmName {
+    margin: 0;
+}
+
+hr {
+
+    width: 90%;
+}
+
+
+
+
+
+
+ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu>li {
+    float: left;
+    position: relative;
+}
+
+ul.menu>li>div {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgba(56, 56, 56, 0.944);
+    margin-right: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3),
+        0 10px 10px rgba(0, 0, 0, 0.258);
+        
+}
+
+ul.menu>li>div:hover {
+    background-color: black;
+}
+
+ul.submenu>li>div:hover {
+    background-color: black;
+    transition: 1s;
+    transform: scale(1.07);
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    max-height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 1;
+    margin-top: 1%;
+    padding-left: 2%;
+    margin-bottom: 1%;
+    list-style: none;
+}
+
+ul.submenu>li {
+    display: block;
+}
+
+ul.submenu>li>div {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgb(62, 62, 62);
+    text-decoration: none;
+}
+
+ul.submenu>li>a:hover {
+    text-decoration: underline;
+}
+
+ul.menu>li:hover>ul.submenu {
+    display: block;
+}
+
+
+
+
+
+
+
+
+ul.submenu::-webkit-scrollbar-button {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 0px
+}
+
+ul.submenu::-webkit-scrollbar-track {
+    background-color: #ecedee
+}
+
+ul.submenu::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #ff0000;
+}
+
+ul.submenu::-webkit-scrollbar-thumb:hover {
+    background-color: #56999f;
+}
+
+ul.submenu::-webkit-resizer {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 0px
+}
+
+ul.submenu::-webkit-scrollbar {
+    width: 4px;
+}

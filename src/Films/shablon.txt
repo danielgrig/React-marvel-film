@@ -1,0 +1,36 @@
+{
+        classNameA: '',
+        filmName: '',
+        filmsInfo: [
+            {
+                classNameLi: 'a',
+                type: 'Режиссёр: ',
+                value: ' '
+
+            },
+            {
+                classNameLi: 'b',
+                type: 'Длительность: ',
+                value: ' '
+
+            },
+            {
+                classNameLi: 'c',
+                type: 'В главных ролях: ',
+                value: ' '
+
+            },
+            {
+                classNameLi: 'd',
+                type: 'Персонажи: ',
+                value: ' '
+
+            },
+            {
+                classNameLi: 'e',
+                type: 'Кратко: ',
+                value: ''
+
+            }
+        ]
+    }

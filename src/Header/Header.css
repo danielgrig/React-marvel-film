@@ -1,0 +1,19 @@
+header {
+    background-color: rgba(0, 0, 0, 0.616);
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.logo {
+    padding: 1% 7% 1% 2%;
+    margin: 2px 2px 2px 2%;
+    background: url(../../public/pictures/logo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
