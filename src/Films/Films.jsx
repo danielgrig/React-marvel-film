@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Films.css';
 import '../Nav/Nav.css';
 import { arrFilmsCont, filterFilms } from './Array';
 
-
 export const Films = () => {
+
+    const [search, setSearch] = useState('')
 
     return (
         <>
@@ -30,14 +31,15 @@ export const Films = () => {
                         })
                     }
                     </ul>
-                        <input type="text" placeholder="Название фильма" class="search" />
+                    <input value={search} placeholder="Название фильма" className="search" onChange={e => { setSearch(e.target.value)}}/>
                         <input type="button" value=" " class="button" />
                 </div>
         </nav>
     <main className="films">
-        <h2>Четвёртая фаза</h2>
         {
-            arrFilmsCont.map((elem) => {
+        arrFilmsCont
+            .filter(item => item.filmName.toLowerCase().startsWith(search.toLowerCase()))
+            .map(elem => {
                 return (
                     <div className='drop'>
                         <a className={elem.classNameA}>
@@ -59,6 +61,6 @@ export const Films = () => {
         }
         <hr />
     </main>
-    </>
+    </> 
     )
 }

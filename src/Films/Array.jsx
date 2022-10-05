@@ -1,4 +1,5 @@
 import React from 'react'
+import { v4 } from 'uuid'
 
 export const filterFilms = [
     {
@@ -20,6 +21,7 @@ export const filterFilms = [
 
 export const arrFilmsCont = [
     {
+        id: v4(),
         classNameA: 'dr-strenge2',
         filmName: 'Доктор Стрэндж: В мультивселенной безумия (2022)',
         filmsInfo: [
@@ -56,6 +58,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'moon-knight',
         filmName: 'Лунный Рыцарь (2022)',
         filmsInfo: [
@@ -92,6 +95,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'spider-man3',
         filmName: 'Человек-паук: Нет пути домой (2021)',
         filmsInfo: [
@@ -128,6 +132,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'eternal',
         filmName: 'Вечные (2021)',
         filmsInfo: [
@@ -163,6 +168,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'shan-chi',
         filmName: 'Шан-Чи и легенда десяти колец (2021)',
         filmsInfo: [
@@ -199,6 +205,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'hawkeye',
         filmName: 'Соколиный Глаз (2021)',
         filmsInfo: [
@@ -235,6 +242,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'black-widow',
         filmName: 'Чёрная вдова (2021)',
         filmsInfo: [
@@ -270,6 +278,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'what-if',
         filmName: 'Что, Если... ? (2021)',
         filmsInfo: [
@@ -306,6 +315,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'loki',
         filmName: 'Локи (2021)',
         filmsInfo: [
@@ -342,6 +352,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'falcon',
         filmName: 'Сокол и Зимний Солдат (2021)',
         filmsInfo: [
@@ -378,6 +389,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'vanda-vision',
         filmName: 'Ванда/Вижен (2021)',
         filmsInfo: [
@@ -414,6 +426,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'spider-man2',
         filmName: 'Человек-паук: Вдали от дома (2019)',
         filmsInfo: [
@@ -450,6 +463,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'avengers-final',
         filmName: 'Мстители: Финал (2019)',
         filmsInfo: [
@@ -486,6 +500,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'capitan-marvel',
         filmName: 'Капитан Марвел (2019)',
         filmsInfo: [
@@ -522,6 +537,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'ant-man2',
         filmName: 'Человек Муравей и Оса (2018)',
         filmsInfo: [
@@ -558,6 +574,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'avengers-infinit',
         filmName: 'Мстители: Война бесконечности (2018)',
         filmsInfo: [
@@ -594,6 +611,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'black-panther',
         filmName: 'Чёрная Пантера (2018)',
         filmsInfo: [
@@ -630,6 +648,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'tor3',
         filmName: 'Тор: Рагнарёк (2017)',
         filmsInfo: [
@@ -666,6 +685,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'spider-man',
         filmName: 'Человек-Паук: Возвращение домой (2017)',
         filmsInfo: [
@@ -702,6 +722,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'straji-galaktik2',
         filmName: 'Стражи Галактики: Часть 2 (2017)',
         filmsInfo: [
@@ -738,6 +759,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'dr-strenge',
         filmName: 'Доктор Стрэндж (2016)',
         filmsInfo: [
@@ -774,6 +796,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'capitan-america3',
         filmName: 'Первый Мститель: Противостояние (2016)',
         filmsInfo: [
@@ -810,6 +833,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'ant-man',
         filmName: 'Человек Муравей (2015)',
         filmsInfo: [
@@ -846,6 +870,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'avengers2',
         filmName: 'Мстители: Эра Альтрона (2015)',
         filmsInfo: [
@@ -882,6 +907,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'straji-galaktik',
         filmName: 'Стражи Галактики (2014)',
         filmsInfo: [
@@ -918,6 +944,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'capitan-america2',
         filmName: 'Первый Мститель: Другая война (2014)',
         filmsInfo: [
@@ -954,6 +981,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'tor2',
         filmName: 'Тор: Царство тьмы (2013)',
         filmsInfo: [
@@ -990,6 +1018,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'iron-man3',
         filmName: 'Железный Человек 3 (2013)',
         filmsInfo: [
@@ -1026,6 +1055,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'avengers',
         filmName: 'Мстители (2012)',
         filmsInfo: [
@@ -1062,6 +1092,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'capitan-america',
         filmName: 'Первый Мститель (2011)',
         filmsInfo: [
@@ -1098,6 +1129,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'tor',
         filmName: 'Тор (2011)',
         filmsInfo: [
@@ -1134,6 +1166,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'iron-man2',
         filmName: 'Железный Человек 2 (2010)',
         filmsInfo: [
@@ -1170,6 +1203,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'hulk',
         filmName: 'Невероятный Халк (2008)',
         filmsInfo: [
@@ -1206,6 +1240,7 @@ export const arrFilmsCont = [
         ]
     },
     {
+        id: v4(),
         classNameA: 'iron-man',
         filmName: 'Железный Человек (2008)',
         filmsInfo: [
