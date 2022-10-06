@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Films.css';
 import '../Nav/Nav.css';
-import { arrFilmsCont, filterFilms } from './Array';
+import { arrFilmsCont, filterFilms } from './filmsArr';
 
 export const Films = () => {
 
