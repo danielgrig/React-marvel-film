@@ -1,10 +1,11 @@
 import React from "react";
 import './Header.css'
+import { Link } from "react-router-dom";
 
-export const Header = (props) => {
+export const Header = () => {
     return (
         <header>
-            <span className="logo" onClick={() => props.func(true)}></span>
+            <Link to='/' className="logo"></Link>
         </header>
     )
 }

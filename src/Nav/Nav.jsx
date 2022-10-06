@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import './Nav.css';
+import { Link } from "react-router-dom";
 
 
-export const Nav = (props) => {
+export const Nav = () => {
 
     const arr1 = [
         {
@@ -18,19 +19,19 @@ export const Nav = (props) => {
     const arr2 = [
         {
             value: 'Фильмы',
-            func: () => props.func(false),
+            link: '/films',
             divClassName: "input1",
             spanClassName: "input1Name"
         },
         {
             value: 'Персонажи',
-            func: () => alert('b'),
+            link: '/persons',
             divClassName: "input2",
             spanClassName: "input2Name"
         },
         {
             value: 'Комиксы',
-            func: () => alert('c'),
+            link: '/comics',
             divClassName: "input3",
             spanClassName: "input3Name"
         }
@@ -49,9 +50,9 @@ export const Nav = (props) => {
                 {
                     arr2.map(elem => {
                         return (
-                            <div className={elem.divClassName} onClick={elem.func}>
+                            <Link to={elem.link} className={elem.divClassName}>
                                 <span className={elem.spanClassName}>{elem.value}</span>
-                            </div>
+                            </Link>
                         )
                     })
                 }
