@@ -1,4 +1,4 @@
-.nav {
+/* .nav {
     border: none;
     margin-left: 11%;
     margin-right: 11%;
@@ -32,11 +32,15 @@
 
 .menuh>div:hover {
     background-color: black;
-}
+} */
 
 .flPrKm {
     display: flex;
     align-content: center;
+    border: none;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-bottom: 0.6%;
 }
 
 .input1 {

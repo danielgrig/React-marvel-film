@@ -11,17 +11,6 @@ main>div>a>span {
     font-size: 17px;
 }
 
-main>h2 {
-    text-align: center;
-    margin: 10px 35% 10px 35%;
-    padding-bottom: 5px;
-    background-color: rgba(77, 77, 77, 0.967);
-    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.445),
-        0 10px 15px rgba(0, 0, 0, 0.386);
-
-    border: solid#3e3e3e;
-}
-
 .descript {
     font-weight: 100;
     width: 630px;
@@ -62,10 +51,7 @@ main>h2 {
     padding: 3px;
 }
 
-.search {
-    border: none;
-    font-size: 17px;
-}
+
 
 .button {
     background: url(../../public/pictures/search1.jpg) no-repeat;

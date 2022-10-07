@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import { Films } from './Films/Films';
 import { Header } from './Header/Header';
 import { Main } from './Main/Main';
 import { Nav } from './Nav/Nav';
 import { Characters } from './Characters/Characters';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import { Film } from './Films/Film/Film';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
 				<Route path='/' element={[<Nav />, <Main />]} />
 				<Route path='/films' element={<Films />}/>
 				<Route path='/characters' element={<Characters />} />
+				<Route path='/film' element={<Film />} />
 			</Routes>
 		</>
 	)

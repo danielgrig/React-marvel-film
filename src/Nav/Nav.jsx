@@ -2,19 +2,14 @@ import React from "react";
 import './Nav.css';
 import { sectionArr, menuArr } from "./navArr";
 import { Link } from "react-router-dom";
+import { Menu } from "../Menu/Menu";
 
 
 export const Nav = () => {
 
     return (
-        <nav className="nav">
-            <div className="menuh">
-                {
-                    menuArr.map(elem => {
-                        return <div onClick={elem.func}>{elem.value}</div>
-                    })
-                }
-            </div>
+        <>
+            <Menu array={menuArr} />
             <div className="flPrKm">
                 {
                     sectionArr.map(elem => {
@@ -26,6 +21,6 @@ export const Nav = () => {
                     })
                 }
             </div>
-        </nav>
+        </>
     )
 }
