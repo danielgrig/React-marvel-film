@@ -7,7 +7,7 @@ export const sectionArr = [
     },
     {
         value: 'Персонажи',
-        link: '/persons',
+        link: '/characters',
         divClassName: "input2",
         spanClassName: "input2Name"
     },
