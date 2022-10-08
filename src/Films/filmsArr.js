@@ -2,7 +2,8 @@ import { v4 } from 'uuid'
 
 export const filterFilms = [
     {
-        value: 'Главная'
+        value: 'Главная',
+        link: '/'
     },
     {
         value: 'ГОД',
@@ -21,6 +22,7 @@ export const filterFilms = [
 export const arrFilmsCont = [
     {
         id: v4(),
+        link: '/dr-strange2',
         classNameA: 'dr-strenge2',
         filmName: 'Доктор Стрэндж: В мультивселенной безумия (2022)',
         filmsInfo: [
@@ -58,6 +60,7 @@ export const arrFilmsCont = [
     },
     {
         id: v4(),
+        link: '/moon-knight',
         classNameA: 'moon-knight',
         filmName: 'Лунный Рыцарь (2022)',
         filmsInfo: [

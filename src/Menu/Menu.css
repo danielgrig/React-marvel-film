@@ -48,7 +48,7 @@ ul.menu {
     display: flex;
 }
 
-ul.menu>li>a {
+.menuLink {
     display: block;
     padding: 10px;
     color: white;
@@ -58,6 +58,6 @@ ul.menu>li>a {
         0 10px 10px rgba(0, 0, 0, 0.258);
 }
 
-ul.menu>li>a:hover {
+.menuLink:hover {
     background-color: black;
 }

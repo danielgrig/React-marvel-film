@@ -1,7 +1,7 @@
 import React from 'react'
 import './Menu.css'
 import { Search } from './Search/Search'
-import { useLocation } from 'react-router-dom'
+import { useLocation, Link } from 'react-router-dom'
 
 export const Menu = (props) => {
 
@@ -15,12 +15,12 @@ export const Menu = (props) => {
                         props.array.map(elem => {
                             return (
                                 <li>
-                                    <div>{elem.value}</div>
+                                    <Link to={elem.link} className='menuLink'>{elem.value}</Link>
                                     {elem.subMenu ? <ul className='submenu'>
                                         {elem.subMenu.map(elem => {
                                             return (
                                                 <li>
-                                                    <div>{elem}</div>
+                                                    <div className='menuLink'>{elem}</div>
                                                 </li>
                                             )
                                         })}
@@ -30,7 +30,7 @@ export const Menu = (props) => {
                         })
                     }
                 </ul>
-                {location.pathname == '/films' && <Search search={props.search} setSearch={props.setSearch} />}
+                {location.pathname === '/films' && <Search search={props.search} setSearch={props.setSearch} />}
             </div>
         </nav>
     )

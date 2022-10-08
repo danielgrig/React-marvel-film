@@ -396,7 +396,6 @@ ul.submenu::-webkit-scrollbar-thumb:hover {
 }
 
 ul.submenu::-webkit-resizer {
-    background-image: url('');
     background-repeat: no-repeat;
     width: 4px;
     height: 0px
