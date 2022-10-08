@@ -1,7 +1,7 @@
-import drStrange2in1 from './films/drStrenge2.jpg';
-import drStrange2in2 from './films/drStrenge2(2).jpg';
-import drStrange2in3 from './films/drStrenge2(3).jpg';
-import drStrange2in4 from './films/drStrenge2(4).jpg';
+import drStrange2is1 from './films/drStrenge2.jpg';
+import drStrange2is2 from './films/drStrenge2(2).jpg';
+import drStrange2is3 from './films/drStrenge2(3).jpg';
+import drStrange2is4 from './films/drStrenge2(4).jpg';
 import drStrange2Screen1 from './films/screen-dr-strange2.jpg';
 import drStrange2Screen2 from './films/screen-dr-strange2(2).jpg';
 import drStrange2Screen3 from './films/screen-dr-strange2(3).jpg';
@@ -12,6 +12,13 @@ import moonKnight4 from './films/moon-knight(4).jpg'
 import moonKnightScreen1 from './films/screen-moon-knight.jpg'
 import moonKnightScreen2 from './films/screen-moon-knight(2).jpg'
 import moonKnightScreen3 from './films/screen-moon-knight(3).jpg'
+import spiderMan3is1 from './films/spiderMan3.jpg'
+import spiderMan3is2 from './films/spiderMan3(2).jpg'
+import spiderMan3is3 from './films/spiderMan3(3).jpg'
+import spiderMan3is4 from './films/spiderMan3(4).jpg'
+import spiderMan3Screen1 from './films/screen-spiderMan3.jpg'
+import spiderMan3Screen2 from './films/screen-spiderMan3(2).jpg'
+import spiderMan3Screen3 from './films/screen-spiderMan3(3).jpg'
 
 export const filmMenuArr = [
     {
@@ -27,7 +34,7 @@ export const filmMenuArr = [
 export const filmContentArr = {
     drStrange2: {
         filmName: 'Доктор Стрэндж: В мультивселенной безумия',
-        slideImgArr: [drStrange2in1, drStrange2in2, drStrange2in3, drStrange2in4],
+        slideImgArr: [drStrange2is1, drStrange2is2, drStrange2is3, drStrange2is4],
         screenImgArr: [drStrange2Screen1, drStrange2Screen2, drStrange2Screen3],
         previousFilm: ' Лунный Рыцарь',
         previousFilmLink: '/moon-knight',
@@ -120,5 +127,53 @@ export const filmContentArr = {
             }
         ],
         plot: 'Основанный на персонаже комиксов Marvel, созданном писателем Дугом Мёнчем и художником Доном Перлином, «Лунный рыцарь» от исполнительного продюсера Джереми Слейтера рассказывает историю Стивена Гранта(Оскар Айзек), кроткого «продавца сувениров», живущего в одиночестве в Лондоне недалеко от музея, где он работает.Бывший морской пехотинец долгое время работал на ЦРУ, после чего стал наёмником.Находясь на грани жизни и смерти, был воскрешён древним божеством.Он становится Лунным рыцарем после того, как он создал канал для египетского бога луны Хонсу, который наделил его особыми способностями.Хотя Стивен предпочел бы проводить свои дни дома или водить посетителей показывая экспонаты музея Древнего Египта, он обычно застревает в кладовой сувенирного магазина из - за своей неорганизованности на рабочем месте. Каким бы сознанием не обладал Стивен, он часто теряет значительные его части вместе с любыми воспоминаниями о том, что происходит всякий раз, когда он впадает в одно из своих загадочных состояний фуги.У него наблюдается расстройство личности, в результате которого в бою иногда сражаются его альтер - эго.Итан Хоук и Мэй Каламави присоединяются к сюжету сериала в роли Артура Хэрроу и Лейлы соответственно.'
+    },
+    spiderMan3: {
+        filmName: 'Человек Паук: Нет пути домой',
+        slideImgArr: [spiderMan3is1, spiderMan3is2, spiderMan3is3, spiderMan3is4],
+        screenImgArr: [spiderMan3Screen1, spiderMan3Screen2, spiderMan3Screen3],
+        previousFilm: ' Вечные',
+        previousFilmLink: '/eternal',
+        nextFilm: ' Лунный Рыцарь',
+        nextFilmLink: '/moon-knight',
+        filmInfo: [
+            {
+                classNameLi: 'a',
+                type: 'Режиссёр: ',
+                value: ' Джон Уоттс'
+
+            },
+            {
+                classNameLi: 'b',
+                type: 'Длительность: ',
+                value: ' 139 мин'
+
+            },
+            {
+                classNameLi: 'c',
+                type: 'Жанр: ',
+                value: ' Боевик, Фантастика, Приключения'
+
+            },
+            {
+                classNameLi: 'd',
+                type: 'Премьера: ',
+                value: ' 15 декабря 2021'
+
+            },
+            {
+                classNameLi: 'e',
+                type: 'В главных ролях: ',
+                value: ' Том Холланд, Зендея, Бенедикт Камбербэтч, Мариса Томей, Джон Фавро'
+
+            },
+            {
+                classNameLi: 'f',
+                type: 'Персонажи: ',
+                value: ' Человек Паук, Доктор Стрэндж'
+
+            }
+        ],
+        plot: 'Сюжет вновь разворачивается вокруг жизни Питера Паркера. Она просто идет кувырком, после того, как Мистерил поведал миру о том, что именно скромный и нерешительный Питер является настоящим Человеком- пауком.Главному герою приходится обратиться за помощью к доктору Стрэнджу.Но он что- то делает не так и вследствие неправильных действий нарушается ход пространства и времени.Перед человечеством открывается вход в мультивселенную.'
     }
 }

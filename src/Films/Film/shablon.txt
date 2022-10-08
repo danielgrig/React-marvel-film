@@ -1,0 +1,48 @@
+{
+        filmName: '',
+        slideImgArr: [],
+        screenImgArr: [],
+        previousFilm: ' ',
+        previousFilmLink: '/',
+        nextFilm: ' ',
+        nextFilmLink: '/',
+        filmInfo: [
+            {
+                classNameLi: 'a',
+                type: 'Режиссёр: ',
+                value: ' '
+
+            },
+            {
+                classNameLi: 'b',
+                type: 'Длительность: ',
+                value: ' 45-50 мин'
+
+            },
+            {
+                classNameLi: 'c',
+                type: 'Жанр: ',
+                value: ' '
+
+            },
+            {
+                classNameLi: 'd',
+                type: 'Премьера: ',
+                value: ' '
+
+            },
+            {
+                classNameLi: 'e',
+                type: 'В главных ролях: ',
+                value: ' '
+
+            },
+            {
+                classNameLi: 'f',
+                type: 'Персонажи: ',
+                value: ' '
+
+            }
+        ],
+        plot: ''
+    }

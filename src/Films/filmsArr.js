@@ -98,6 +98,7 @@ export const arrFilmsCont = [
     },
     {
         id: v4(),
+        link: '/spider-man3',
         classNameA: 'spider-man3',
         filmName: 'Человек-паук: Нет пути домой (2021)',
         filmsInfo: [
@@ -135,6 +136,7 @@ export const arrFilmsCont = [
     },
     {
         id: v4(),
+        link: '/eternal',
         classNameA: 'eternal',
         filmName: 'Вечные (2021)',
         filmsInfo: [
