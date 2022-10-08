@@ -375,7 +375,6 @@ ul.menu>li:hover>ul.submenu {
 
 
 ul.submenu::-webkit-scrollbar-button {
-    background-image: url('');
     background-repeat: no-repeat;
     width: 5px;
     height: 0px
