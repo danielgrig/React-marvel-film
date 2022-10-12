@@ -16,10 +16,8 @@ function App() {
 			<Routes>
 				<Route path='/' element={[<Nav />, <Main />]} />
 				<Route path='/films' element={<Films />}/>
+				<Route path='/film/:id' element={<Film />} />
 				<Route path='/characters' element={<Characters />} />
-				<Route path='/dr-strange2' element={<Film keyFilm='drStrange2'/>} />
-				<Route path='/moon-knight' element={<Film keyFilm='moonKnight'/>} />
-				<Route path='/spider-man3' element={<Film keyFilm='spiderMan3' />} />
 			</Routes>
 		</>
 	)

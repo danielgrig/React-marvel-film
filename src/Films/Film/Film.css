@@ -1,5 +1,3 @@
-
-
 .content {
     margin-left: 11%;
     margin-right: 11%;
@@ -45,6 +43,10 @@ span>a {
     color: white;
     font-weight: bold;
     padding: 2px;
+}
+
+.back-film {
+    cursor: w-resize;
 }
 
 #player {

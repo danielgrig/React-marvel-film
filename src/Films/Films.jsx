@@ -19,7 +19,7 @@ export const Films = () => {
                         .map(elem => {
                             return (
                                 <div className='drop'>
-                                    <Link to={elem.link} className={elem.classNameA}>
+                                    <Link to={`/film/${elem.id}`} className={elem.classNameA}>
                                         <span>Подробнее...</span>
                                     </Link>
                                     <div className='info'>
