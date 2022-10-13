@@ -478,7 +478,7 @@ export const arrFilmsCont = [
     },
     {
         id: v4(),
-        classNameA: 'black-widow',
+        classNameA: 'black-widow-film',
         filmName: 'Чёрная вдова (2021)',
         filmsInfo: [
             {
@@ -551,7 +551,7 @@ export const arrFilmsCont = [
     },
     {
         id: v4(),
-        classNameA: 'loki',
+        classNameA: 'loki-film',
         filmName: 'Локи (2021)',
         filmsInfo: [
             {
@@ -921,7 +921,7 @@ export const arrFilmsCont = [
     },
     {
         id: v4(),
-        classNameA: 'spider-man',
+        classNameA: 'spider-man-film',
         filmName: 'Человек-Паук: Возвращение домой (2017)',
         filmsInfo: [
             {
@@ -1365,7 +1365,7 @@ export const arrFilmsCont = [
     },
     {
         id: v4(),
-        classNameA: 'tor',
+        classNameA: 'tor-film',
         filmName: 'Тор (2011)',
         filmsInfo: [
             {
