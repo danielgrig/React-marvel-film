@@ -65,8 +65,18 @@ export const Film = () => {
                     <h2>{selectFilms.filmName}</h2>
                     <div id="player" poster="../../../public/pictures/player.jpg">
                     </div>
+                    <video 
+                        preload="metadata" 
+                        src="https://www.youtube.com/watch?v=A18rRKEepm0" 
+                        x-webkit-airplay="allow"
+                        disableremoteplayback="true"
+                        id="player"
+                        className='player'
+                        >
+                    </video>
+
                     <span className='span'>Предыдущий Фильм: <Link to={`/film/${arrFilmsCont[index + 1].id}`} className='back-film'> {selectFilms.previousFilm}</Link></span>
-                    <span>Следующий Фильм: <Link to={`/film/${!(index - 1) ? arrFilmsCont[index].id : arrFilmsCont[index - 1].id}`} className='forwardFilm'> {selectFilms.nextFilm}</Link></span>
+                    <span>Следующий Фильм: <Link to={`/film/${!(index - 1) ? arrFilmsCont[index].id : arrFilmsCont[index - 1].id}`} className='forward-film'> {selectFilms.nextFilm}</Link></span>
                     <hr />
                     <h3>Сюжет</h3>
                     <p className="plot">{selectFilms.plot}</p>
