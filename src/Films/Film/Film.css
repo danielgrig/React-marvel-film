@@ -36,6 +36,7 @@ img {
 
 span {
     font-size: 13px;
+    margin: 5px;
 }
 
 span>a {
@@ -72,8 +73,8 @@ span>a {
 }
 
 .screen {
-    display: inline-flex;
-    margin-left: 9%;
+    display: flex;
+    justify-content: center;
 }
 
 .screen>img {
@@ -161,7 +162,8 @@ span>a {
 }
 
 .span {
-    margin: 10%;
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
