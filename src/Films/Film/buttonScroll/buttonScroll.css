@@ -1,0 +1,22 @@
+.scroll-up {
+    position: fixed;
+        top: 80%;
+        left: 90%;
+        z-index: 1;
+    border-radius: 2px;
+    border-color: #3e3e3e;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(77, 77, 77, 0.967);
+
+}
+
+.scroll-up:after {
+    content: "🡅";
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.scroll-up:hover:after {
+    color: #ff0000;
+}
