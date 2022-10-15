@@ -72,8 +72,8 @@ span>a {
 }
 
 .screen {
-    display: inline-flex;
-    margin-left: 9%;
+    display: flex;
+    justify-content: center;
 }
 
 .screen>img {
