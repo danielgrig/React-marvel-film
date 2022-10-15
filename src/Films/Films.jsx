@@ -6,7 +6,6 @@ import { arrFilmsCont, filterFilms } from './filmsArr';
 import { Menu } from '../Menu/Menu';
 
 export const Films = () => {
-
     const [search, setSearch] = useState('')
 
     return (
@@ -19,7 +18,7 @@ export const Films = () => {
                         .map(elem => {
                             return (
                                 <div className='drop'>
-                                    <Link to={`/film/${elem.id}`} className={elem.classNameA}>
+                                    <Link to={`/film/${elem.id}`} className={elem.classNameA} onClick={() => window.scroll(0, 0)}>
                                         <span>Подробнее...</span>
                                     </Link>
                                     <div className='info'>
