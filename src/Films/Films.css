@@ -13,7 +13,6 @@ main>div>a>span {
 
 .descript {
     font-weight: 100;
-    width: 630px;
     font-size: 18px;
 }
 
@@ -21,7 +20,7 @@ main>div>a>span {
     margin: 20px 0;
 }
 
-.descript>.a {
+/* .descript>.a {
     list-style-image: url(../../public/pictures/regi.png);
     background-color: #1c1c1c46;
     padding: 3px;
@@ -49,7 +48,7 @@ main>div>a>span {
     list-style-image: url(../../public/pictures/sujet.png);
     background-color: #1c1c1c46;
     padding: 3px;
-}
+} */
 
 
 
