@@ -76,8 +76,8 @@ export const Film = () => {
                         className='player'
                     >
                     </video>
-
-                    <span className='span'>
+                    <div className='span'>
+                        <span>
                         Предыдущий Фильм:
                         <Link 
                             to={`/film/${arrFilmsCont[index + 1].id}`}
@@ -95,6 +95,8 @@ export const Film = () => {
                             {selectFilms.nextFilm}
                         </Link>
                     </span>
+                    </div>
+                    
                     <hr />
                     <h3>Сюжет</h3>
                     <p className="plot">{selectFilms.plot}</p>

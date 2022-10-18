@@ -4,12 +4,14 @@ import './Films.css';
 import '../Nav/Nav.css';
 import { arrFilmsCont, filterFilms } from './filmsArr';
 import { Menu } from '../Menu/Menu';
+import { ButtonScroll } from './Film/buttonScroll/ButtonScroll';
 
 export const Films = () => {
     const [search, setSearch] = useState('')
 
     return (
-        <>
+        <>  
+            <ButtonScroll />
             <Menu array={filterFilms} search={search} setSearch={setSearch} />
             <main className="films">
                 {
