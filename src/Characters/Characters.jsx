@@ -4,6 +4,7 @@ import { Menu } from '../Menu/Menu';
 import './Characters.css'
 import { filterCharacter, arrCharactersCont } from './charactersArr';
 
+
 export const Characters = () => {
     //const [search, setSearch] = useState('')
 

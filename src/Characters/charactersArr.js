@@ -1,6 +1,8 @@
+
 export const filterCharacter = [
     {
-        value: 'Главная'
+        value: 'Главная',
+        link: '/'
     },
     {
         value: 'Актеры',
