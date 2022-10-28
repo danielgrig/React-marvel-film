@@ -125,6 +125,7 @@ export const arrFilmsCont = [
     // },
     {
         id: v4(),
+        filmYear: '2022',
         classNameA: 'dr-strenge2',
         filmName: 'Доктор Стрэндж: В мультивселенной безумия (2022)',
         previousFilm: ' Лунный Рыцарь',

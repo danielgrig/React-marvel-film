@@ -7,6 +7,7 @@ import { Nav } from './Nav/Nav';
 import { Characters } from './Characters/Characters';
 import { Routes, Route } from 'react-router-dom';
 import { Film } from './Films/Film/Film';
+import { Comics } from './Comics/Comics';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 					<Route path='/films' element={<Films />}/>
 					<Route path='/film/:id' element={<Film />} />
 					<Route path='/characters' element={<Characters />} />
+					<Route path='/comics' element={<Comics />} />
 				</Routes>
 		</>
 	)

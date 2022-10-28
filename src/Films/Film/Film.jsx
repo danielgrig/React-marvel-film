@@ -2,7 +2,9 @@ import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Menu } from '../../Menu/Menu';
 import { arrFilmsCont } from '../filmsArr';
+import { Player } from '../player/player';
 import './Film.css';
+import video1 from '../../video/video_1.mp4'
 
 export const filmMenuArr = [
     {
@@ -65,17 +67,7 @@ export const Film = () => {
                     </div>
                     <hr />
                     <h2>{selectFilms.filmName}</h2>
-                    <div id="player" poster="../../../public/pictures/player.jpg">
-                    </div>
-                    <video
-                        preload="metadata"
-                        src="https://www.youtube.com/watch?v=A18rRKEepm0"
-                        x-webkit-airplay="allow"
-                        disableremoteplayback="true"
-                        id="player"
-                        className='player'
-                    >
-                    </video>
+                    <Player video={video1}/>
                     <div className='span'>
                         <span>
                         Предыдущий Фильм:

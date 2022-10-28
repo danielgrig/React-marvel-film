@@ -9,8 +9,8 @@ export const Menu = (props) => {
 
     return (
         <nav className='nav'>
-            <div class="menuh">
-                <ul class="menu">
+            <div className="menuh">
+                <ul className="menu">
                     {
                         props.array.map(elem => {
                             return (

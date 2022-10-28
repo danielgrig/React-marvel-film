@@ -14,7 +14,11 @@ export const Nav = () => {
                 {
                     sectionArr.map(elem => {
                         return (
-                            <Link to={elem.link} className={elem.divClassName}>
+                            <Link 
+                                to={elem.link} 
+                                className={elem.divClassName}
+                                onClick={() => window.scroll(0, 0)}
+                            >
                                 <span className={elem.spanClassName}>{elem.value}</span>
                             </Link>
                         )

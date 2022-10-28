@@ -20,38 +20,6 @@ main>div>a>span {
     margin: 20px 0;
 }
 
-/* .descript>.a {
-    list-style-image: url(../../public/pictures/regi.png);
-    background-color: #1c1c1c46;
-    padding: 3px;
-}
-
-.descript>.b {
-    list-style-image: url(../../public/pictures/time1.png);
-    background-color: #1c1c1c46;
-    padding: 3px;
-}
-
-.descript>.c {
-    list-style-image: url(../../public/pictures/actr.png);
-    background-color: #1c1c1c46;
-    padding: 3px;
-}
-
-.descript>.d {
-    list-style-image: url(../../public/pictures/pers.png);
-    background-color: #1c1c1c46;
-    padding: 3px;
-}
-
-.descript>.e {
-    list-style-image: url(../../public/pictures/sujet.png);
-    background-color: #1c1c1c46;
-    padding: 3px;
-} */
-
-
-
 .button {
     background: url(../../public/pictures/search1.jpg) no-repeat;
     background-size: 40px 100%;
